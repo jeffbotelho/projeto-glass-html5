@@ -9,3 +9,19 @@ p {
     text-align: justify;
     text-indent: 50px;
 }
+
+/* Formatação de imagens com legendas*/
+figure.foto-legenda {
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption {
+    position: absolute; /*isto é: ele terá uma posição absoluta dentro de seu conteiner, que no caso é a borda branca*/
+    top: 0px;
+}
