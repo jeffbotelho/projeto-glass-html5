@@ -12,6 +12,7 @@ p {
 
 /* Formatação de imagens com legendas*/
 figure.foto-legenda {
+    position: relative; /* sua posição será relativa ao lugar onde foi colocado dentro do código html*/
     border: 8px solid white;
     box-shadow: 1px 1px 4px black;
 }
@@ -22,6 +23,6 @@ figure.foto-legenda img {
 }
 
 figure.foto-legenda figcaption {
-    position: absolute; /*isto é: ele terá uma posição absoluta dentro de seu conteiner, que no caso é a borda branca*/
+    position: absolute; /* terá uma posicao absoluta dentro do seu pai, que é o figure*/
     top: 0px;
 }
