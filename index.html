@@ -28,10 +28,6 @@
             </nav>
 
             </header>
-        
-        <!--
-            Para dividir nosso texto em seções bem definidas existe o elemento SECTION que representa uma seção dentro de um documento. Por exemplo, uma parte de um texto que irá ter outras etapas posteriormente. Ele é um elemento que visualmente não tem efeitos palpáveis, mas que dentro do código serve para organização e auxilia os user agents com relação ao conteúdo.
-        -->
 
         <section id="corpo">
             <hgroup>
@@ -55,13 +51,17 @@
             <h1>Data de lançamento</h1>
             <p>Não há uma data específica e oficial para o dispositivo ser lançado, ainda. Pode ser que ele esteja disponível em demonstrações a partir de 2013, mas seu lançamento para as lojas fica para, pelo menos, 2014.</p>
 
-            <h1>Especificações Técnicas</h1>
-            Tabela Técnica do Google Glass Mar/2013
-
-            Tela:Resolução equivalente a tela de 25"
-            Camera: 5MP para fotos / 720p para vídeos
-            Conectividade: Wi-Fi/ Bluetooth
-            Memória Interna: 12GB
+            <table id="tabelaspec">
+                <h1>Especificações Técnicas</h1>
+                <caption>Tabela Técnica do Google Glass <span>Mar/2013</span></caption>
+                <tr><td class="ce">Tela</td><td class="cd">Resolução equivalente a tela de 25"</td></tr>
+                <tr><td rowspan="2" class="ce">Camera</td><td class="cd">5MP para fotos</td></tr>
+                <tr><td class="cd">720p para vídeos</td></tr>
+                <tr><td rowspan="2" class="ce">Conectividade</td><td class="cd">Wi-Fi</td></tr>
+                <tr><td class="cd">Bluetooth</td></tr>
+                <tr><td class="ce">Memória Interna</td><td class="cd">12GB</td></tr>
+            </table>
+            
 
             <h1>Como funciona</h1>
             <p>De acordo com fontes próximas do Google, os óculos vão contar com uma pequena tela de LCD ou AMOLED na parte superior e em frente aos olhos do usuário. Com o uso de uma câmera e GPS, você pode se situar, assim como selecionar opções com o movimento da cabeça</p>
@@ -72,10 +72,6 @@
             [AQUI ENTRA UM VÍDEO]
 
         </section>
-
-        <!--
-            O elemento aside define um bloco de conteúdo que faz referência ao conteúdo principal que o cerca, pode estar ou não em uma barra lateral (sidebar) exibindo informações contextuais, assuntos relacionados, conteúdo publicitário ou um grupo de navegação secundária.
-        -->
 
         <aside id="lateral">            
             <h1>Outras Notícias</h1>

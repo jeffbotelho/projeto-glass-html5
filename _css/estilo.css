@@ -24,8 +24,8 @@ header#cabecalho img#icone {
 header#cabecalho {
     border-bottom: 1px #606060 solid;
     height: 150px;
-    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px; /* deslocamento lateral, deslocamento vertical */
-} /* esta imagem é um background, mais indicado para logomarcas*/
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+}
 
 header#cabecalho h1 {
     font-family: 'FonteLogo', Helvetica, sans-serif;
@@ -123,19 +123,58 @@ nav#menu a:hover {
 section#corpo {
     display: block;
     width: 520px;
-    float: left; /* configuracao css para objetos configurados como display: block */
+    float: left;
     border-right: 1px solid #606060;
     padding-right: 15px;
+}
+
+table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table#tabelaspec td.ce {
+    color: white;
+    background: #606060;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+table#tabelaspec td.cd {
+    background-color: #cecece;
+}
+
+table#tabelaspec caption {
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+table#tabelaspec caption span {
+    display: block;
+    float: right;   /* será mostrado como um blocl flutuante */
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 10px;
 }
 
 aside#lateral {
     display: block;
     width: 350px;
-    float: right; /* fara com que corpo flutue pela esquerda e lateral pela direita */
+    float: right;
 }
 
 footer#rodape {
-    clear: both; /* o clear: both fará com que o rodape limpe a configuracao anterior */
+    clear: both;
     border-top: 1px solid #606060;
 }
 
