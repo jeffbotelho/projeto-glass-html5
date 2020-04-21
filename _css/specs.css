@@ -9,3 +9,7 @@ iframe#frame-spec {
     width: 400px;
     height: 280px;
 }
+
+area {
+    outline: none;
+}
